@@ -1,2 +1,3 @@
 # ThreadedThrive
-Clothing Brand
+
+Ecommerce Website
