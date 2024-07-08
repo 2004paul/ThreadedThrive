@@ -1,3 +1,3 @@
 # ThreadedThrive
 
-Ecommerce Website im
+Ecommerce Website
