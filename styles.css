@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background: url(images/background-image.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.container, nav {
+    padding: 0 10%;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(25, 25, 25, 0.1);
+    z-index: 999;
+}
+
+.logo {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 30px 0;
+    color:#676d72;
+}
+
+.logo span{
+    color: red;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #676d72;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.header-right {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.header-right a {
+    color: #676d72;
+    font-size: 1.3em;
+    margin: 0 15px;
+}
+
+nav ul li > a:hover {
+    color: #FF4C4C;
+}
+
+.header-right a:hover{
+    color: #FF4C4C;
+    transform: rotate(5deg);
+}
+
+.text-wrapper {
+    margin: 10% 0;
+}
+
+.text-wrapper h1 {
+    font-size: 5em;
+    color: #45484b;
+    margin-bottom: 2rem;
+}
+
+.text-wrapper h1 span {
+    color: #ff2020;
+}
+
+.text-wrapper p {
+    font-size: 1.2em;
+    color: #676d72;
+    margin-bottom: 2rem;
+}
+
+.text-wrapper a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ff2020;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.text-wrapper a:hover {
+    background-color: #f84141;
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #676d72;
+}
