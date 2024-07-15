@@ -7,12 +7,15 @@
     font-family: 'outfit', sans-serif;
 }
 
+/* -------------------- Header --------------------*/
+
 #header {
     width: 100%;
     height: 100vh;
     background: url(images/background-image.jpg);
     background-size: cover;
     background-position: top;
+    transition: all 0.5s;
 }
 
 .container, nav {
@@ -111,3 +114,50 @@ nav ul li > a:hover {
     transform: scale(0.9);
     box-shadow: 0 0 5px #676d72;
 }
+
+/* -------------------- Category --------------------*/
+
+.category {
+    width: 100%;
+}
+
+.category-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.category-wrapper div{
+    display: inline-block;
+    position: relative;
+}
+
+.category-wrapper div img{
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+    box-shadow: 0 0 3px #676d72;
+}
+
+.category-wrapper div a{
+    display: inline-block;
+    color: #45484b;
+    background-color: #676d72;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    transition: all 0.5;
+}
+
+.category-wrapper div a:hover{
+    color: #fff;
+    
+}
+
+
+
+/* -------------------- Category --------------------*/
