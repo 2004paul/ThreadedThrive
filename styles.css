@@ -115,16 +115,17 @@ nav ul li > a:hover {
     box-shadow: 0 0 5px #676d72;
 }
 
-/* -------------------- Category --------------------*/
-
+ /* -------------------- Category -------------------- */
+/* 
 .category {
     width: 100%;
+    background: #ececee3a;
 }
 
 .category-wrapper {
     display: flex;
     justify-content: center;
-    margin: 30px auto;
+    padding: 50px;
 }
 
 .category-wrapper div{
@@ -156,8 +157,36 @@ nav ul li > a:hover {
 .category-wrapper div a:hover{
     color: #fff;
     
+} */
+
+
+
+/* -------------------- Featured --------------------*/
+
+.featured {
+    width: 100%;
+    background: #e5e5e5;
+    padding: 30px 0;
 }
 
+.featured-container > h2,
+.featured-container > p {
+    text-align: center;
+}
 
+.featured-container h2 {
+    font-size: 3.5em;
+    color: #45484b;
+    margin-bottom: 20px;
+}
 
-/* -------------------- Category --------------------*/
+.featured-container p {
+    font-size: 1.1em;
+    color: #676d72;
+}
+
+.gallery {
+    display: flex;
+    position: relative;
+}
+
